@@ -86,8 +86,11 @@
             <ul class="flex  items-center gap-6 lg:gap-8  py-4 text-[14px] font-semibold">
                 <li class="text-white hover:text-white"><a href="#about">About</a></li>
                 <li class="text-[#959092] hover:text-white"><a href="#links">Links</a></li>
-                <li class="text-[#959092] hover:text-white"><a href="#products">Products</a></li>
+                <li class="text-[#959092] hover:text-white"><a href="#work-experience">Work Experience</a></li>
                 <li class="text-[#959092] hover:text-white"><a href="#projects">Projects</a></li>
+                <li class="text-[#959092] hover:text-white"><a
+                        href="https://drive.google.com/file/d/1gBaUj3p_chQ2k3HKxNhFKl6WTNU03k9S/view?usp=sharing"
+                        target="_blank" referrerpolicy="no-referrer|no-referrer-when-downgrade">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -95,7 +98,8 @@
     <section id="about" class="lg:w-[80%] mx-auto px-6 mt-4 lg:mt-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0">
         <div class="space-y-2 col-span-full mb-4">
             <h1 class="text-[28px] font-semibold leading-[36px] ">Jatinder Singh</h1>
-            <p class="text-[14px] leading-[18px] text-[#cdcdcd]">Full stack developer</p>
+            <p class="text-[14px] leading-[18px] text-[#cdcdcd]">Full stack developer | React | React Native | Nextjs |
+                Django | Python | Javascript</p>
         </div>
         <div class="grid grid-cols-2 gap-9">
             <div class="w-[312px] h-[312px] rounded-xl lg:rounded-none lg:rounded-l-xl overflow-hidden">
@@ -118,19 +122,20 @@
             <h2 class="text-[18px] leading-[24px] font-semibold">About</h2>
             <p>
                 Jatinder Singh is a passionate Full-Stack Developer skilled in Django, React, Next.js, and React Native.
-                He builds scalable web and mobile apps with a focus on performance, clean architecture, and user
-                experience.
+                He helps founders and startups turn ideas into scalable web and mobile apps,
+                focusing on performance, clean architecture, and exceptional user experience.
             </p>
             <div>
                 <span class="font-[700] text-white">Born:</span>
-                <span class="text-[#cdcdcd]">23 June 2002 (age 23 years)</span>
+                <span class="text-[#cdcdcd]">23 June 2002 (age <span id="age-count"></span> years)</span>
             </div>
             <div>
                 <span class="font-[700] text-white">Skills:</span>
-                <span class="text-[#cdcdcd]">Problem solving • Fast learner • Teamwork • Communication </span>
+                <span class="text-[#cdcdcd]">• Leadership • Problem solving • Fast learner • Teamwork • Communication
+                </span>
             </div>
             <div>
-                <span class="font-[700] text-white">Libraries:</span>
+                <span class="font-[700] text-white">Libraries & Tools:</span>
                 <span class="text-[#cdcdcd]">Django • Django rest framework • JWT • Django Channels • Postgresql</span>
                 <span class="text-[#cdcdcd]">• React • React Native • Nextjs • Redux • Tailwind CSS • JWT •
                     Shadcn</span>
@@ -167,6 +172,23 @@
     <section id="links" class=" mt-10 px-6 lg:w-[80%] mx-auto space-y-10">
         <h3 class="text-[18px] leading-[24px] font-semibold">Links</h3>
         <div>
+            <a href="https://www.fiverr.com/s/WEvYz0x" class="text-blue-400 hover:underline flex flex-col gap-1 peer">
+                <div class="flex items-center">
+                    <img src="https://fiverr-res.cloudinary.com/npm-assets/layout-service/favicon-16x16.74a458e.png"
+                        alt="github logo" class="w-[24px] h-[24px] inline-block mr-2">
+                    <div class="flex flex-col ">
+                        <span class="text-[14px] leading-[20px] text-[#DADCE0] ">Fiverr</span>
+                        <span class="text-[#cdcdcd] text-[14px] leading-[18px]">https://www.fiverr.com/s/WEvYz0x</span>
+                    </div>
+                </div>
+                <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">Fiverr</p>
+            </a>
+            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Hire Jatinder Singh on Fiverr for
+                professional web & mobile app development. I create fast, scalable, and maintainable full-stack
+                applications using Django, React, Next.js, and React Native. Available for MVPs, SaaS platforms, and
+                custom solutions.</p>
+        </div>
+        <div>
             <a href="https://github.com/jatinder-singh221"
                 class="text-blue-400 hover:underline flex flex-col gap-1 peer">
                 <div class="flex items-center">
@@ -180,8 +202,9 @@
                 </div>
                 <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">Github</p>
             </a>
-            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Explore my open-source contributions,
-                personal projects, and collaborative work. I use GitHub to build and share scalable full-stack
+            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Explore open-source contributions by
+                Jatinder singh,
+                personal projects, and collaborative work. Uses GitHub to build and share scalable full-stack
                 applications with clean, maintainable code.</p>
         </div>
         <div>
@@ -198,9 +221,11 @@
                 </div>
                 <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">Linkedin</p>
             </a>
-            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Explore my open-source contributions,
-                personal projects, and collaborative work. I use LinkedIn to build and share my professional network
-                and showcase my skills.</p>
+            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Connect with Jatinder Singh to explore
+                his work and ideas. Regularly shares his
+                learning journey, development insights, and tips for building scalable web and mobile applications. His
+                LinkedIn profile features posts on Django, React, Next.js, and React Native, along with best practices
+                in full-stack development. .</p>
         </div>
         <div>
             <a href="https://www.instagram.com/jatinder__singh19?igsh=amVlZjQ4N2hjczRz&utm_source=qr"
@@ -216,14 +241,15 @@
                 </div>
                 <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">Instagram</p>
             </a>
-            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Explore my open-source contributions,
-                personal projects, and collaborative work. I use Instagram to share my creative journey and connect
-                with others.</p>
+            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Shares moments from his
+                life, including nature photography, travel experiences, and personal updates. His Instagram features
+                scenic landscapes, candid shots, and glimpses into his journey beyond coding. Follow Jatinder Singh to
+                explore his world through photos.</p>
         </div>
     </section>
 
-    <section id="products" class=" mt-10 px-6 lg:w-[80%] mx-auto space-y-10">
-        <h3 class="text-[18px] leading-[24px] font-semibold">Products</h3>
+    <section id="work-experience" class=" mt-10 px-6 lg:w-[80%] mx-auto space-y-10">
+        <h3 class="text-[18px] leading-[24px] font-semibold">Work Experience</h3>
         <div>
             <a href="https://astrooccult.com/" class="text-blue-400 hover:underline flex flex-col gap-1 peer">
                 <div class="flex items-center">
@@ -234,12 +260,23 @@
                         <span class="text-[#cdcdcd] text-[14px] leading-[18px]">https://astrooccult.com/</span>
                     </div>
                 </div>
-                <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">astrooccult</p>
+                <p class="text-[20px] leading-[26px] text-blue-400 peer-hover:underline">Astrooccult</p>
             </a>
-            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Astrooccult also has daily, weekly,
-                monthly and yearly horoscopes prepared by expert astrologers that help you decode your future in
-                advance. Then, astrooccult ...</p>
+            <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Worked in astrooccult.com
+                for 1 year and 2 months, leading the MVP development as Full-Stack Developer. He designed the
+                architecture, built the backend with Django & Django REST Framework, and developed the frontend using
+                React and React Native. The role involved API design, data flow management, integration, and performance
+                optimization for both web and mobile platforms.
+                <br />
+                <span class="text-white">Skills:</span> React Native · Django · Tailwind CSS · Django RestFramework ·
+                Razorpay · WebSocket
+            </p>
         </div>
+
+    </section>
+
+    <section id="projects" class=" mt-10 px-6 lg:w-[80%] mx-auto space-y-10">
+        <h3 class="text-[18px] leading-[24px] font-semibold">Projects</h3>
         <div>
             <a href="https://buddy-zeta-ten.vercel.app/" class="text-blue-400 hover:underline flex flex-col gap-1 peer">
                 <div class="flex items-center">
@@ -255,7 +292,10 @@
             </a>
             <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Buddy is a powerful GST calculator and
                 estimate maker for businesses and individuals. calculate GST-inclusive/exclusive prices, accurate
-                estimates, store history locally for easy access.</p>
+                estimates, store history locally for easy access.
+                <br />
+                <span class="text-white">Skills:</span> HTML · CSS · Tailwind CSS · JS · Vercel
+            </p>
         </div>
         <div>
             <a href="https://github.com/jatinder-singh221/matrix-icons-react-native"
@@ -273,7 +313,10 @@
             </a>
             <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Matrix Icons React Native is a React
                 Native library that provides a collection of high-quality icons for use in React applications. These
-                icons are designed to be visually appealing, scalable, and easily integrable into your projects.</p>
+                icons are designed to be visually appealing, scalable, and easily integrable into your projects.
+                <br />
+                <span class="text-white">Skills:</span> Figam · SVG
+            </p>
         </div>
         <div>
             <a href="https://github.com/jatinder-singh221/matrix-icons-react"
@@ -291,12 +334,11 @@
             </a>
             <p class="mt-1 text-[14px] leading-[22px] text-[#cdcdcd] max-w-2xl">Matrix Icons React is a React library
                 that provides a collection of high-quality icons for use in React applications. These icons are designed
-                to be visually appealing, scalable, and easily integrable into your projects.</p>
+                to be visually appealing, scalable, and easily integrable into your projects.
+                <br />
+                <span class="text-white">Skills:</span> Figam · SVG
+            </p>
         </div>
-    </section>
-
-    <section id="projects" class=" mt-10 px-6 lg:w-[80%] mx-auto space-y-10">
-        <h3 class="text-[18px] leading-[24px] font-semibold">Projects</h3>
         <!-- Business Management System -->
         <div>
             <a href="#" class="text-blue-400 hover:underline flex flex-col gap-1 peer">
@@ -347,8 +389,15 @@
     <footer class="my-20">
         <p class="text-center text-[14px] leading-[20px] text-[#cdcdcd]">
             © 2025 Jatinder singh. All rights reserved.
-        </p>    
+        </p>
     </footer>
+
+    <script>
+        const date = new Date()
+        const ageElement = document.getElementById("age-count")
+        console.log(ageElement)
+        ageElement.innerHTML = date.getFullYear() - 2002 
+    </script>
 </body>
 
 </html>
